@@ -1,0 +1,7 @@
+---
+- name: Prueba de conexion a mi Ubuntu
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Ejecutar modulo ping de Ansible
+      ansible.builtin.ping:
