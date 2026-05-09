@@ -1,6 +1,6 @@
 ---
 - name: Prueba de conexion a mi Ubuntu
-  hosts: OMV
+  hosts: 10.0.1.90
   gather_facts: no
   tasks:
     - name: Ejecutar modulo ping de Ansible
